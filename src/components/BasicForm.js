@@ -3,7 +3,7 @@ import useInputCustom from '../hooks/hook-input';
 const fieldIsNotEmpty = (value) => value.trim() !== '';
 const isEmail = (value) => value.includes('@');
 
-const BasicForm = (props) => {
+const BasicForm = ( props ) => {
   const {
     value: firstNameValue,
     isValid: firstNameIsValid,
